@@ -1,0 +1,66 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "发现",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true,
+				"transparentTitle": "always"
+			}
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "推荐",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true,
+				"transparentTitle": "always"
+			}
+		}, {
+			"path": "pages/me/me",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false,
+				"transparentTitle": "always"
+			}
+
+		}
+	],
+	"tabBar": {
+		"color": "#000000",
+		"selectedColor": "#ffffff",
+		"borderStyle": "black",
+		"backgroundColor": "#5a5a5a",
+		"height": "50px",
+		"fontSize": "10px",
+		"iconWidth": "24px",
+		"spacing": "3px",
+		"list": [{
+				"pagePath": "pages/home/home",
+				"text": "主页",
+				"selectedIconPath": "static/tabbar/home-sel.png",
+				"iconPath": "static/tabbar/home.png"
+			},
+			{
+				"pagePath": "pages/index/index",
+				"text": "发现",
+				"selectedIconPath": "static/tabbar/tabbar-sel.png",
+				"iconPath": "static/tabbar/tabbar.png"
+			}, {
+				"pagePath": "pages/me/me",
+				"text": "我的",
+				"selectedIconPath": "static/tabbar/me-sel.png",
+				"iconPath": "static/tabbar/me.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#101A25"
+	},
+	"uniIdRouter": {}
+}
