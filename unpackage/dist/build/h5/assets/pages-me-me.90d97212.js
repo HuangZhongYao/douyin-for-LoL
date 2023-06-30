@@ -1,0 +1,1 @@
+import{o as e,c as s,w as t,i as a,b as o}from"./index-27e18c2c.js";import{_ as r}from"./_plugin-vue_export-helper.1b428a4d.js";const n=r({data:()=>({}),methods:{}},[["render",function(r,n,u,d,i,l){const p=a;return e(),s(p,null,{default:t((()=>[o(" 我的 ")])),_:1})}]]);export{n as default};

@@ -1,5 +1,5 @@
 {
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	"pages": [ 
 		{
 			"path": "pages/index/index",
 			"style": {
@@ -29,10 +29,10 @@
 		}
     ],
 	"tabBar": {
-		"color": "#000000",
+		"color": "#848484",
 		"selectedColor": "#ffffff",
 		"borderStyle": "black",
-		"backgroundColor": "#5a5a5a",
+		"backgroundColor": "#000000",
 		"height": "50px",
 		"fontSize": "10px",
 		"iconWidth": "24px",
