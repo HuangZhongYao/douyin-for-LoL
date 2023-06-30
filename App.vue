@@ -8,7 +8,10 @@
 		},
 		onHide: function() {
 			console.log('App Hide')
-		}
+		},
+		globalData: {  
+		            baseApi: 'http://47.115.216.83:8080'  
+		        }
 	}
 </script>
 
