@@ -19,6 +19,10 @@
 	/*每个页面公共css */
 	uni-page-body,html,body{  
 	            height: 100%;
-				background-color: #151822;
+				background-color: #0E111E;
 	        }
+			
+	::-webkit-scrollbar{
+	      display: none;
+	}		
 </style>
