@@ -1,5 +1,6 @@
 <template>
 	<view class="page">
+		<scroll-view scroll-y="true" class="scroll-Y">
 		<view class="main">
 			<view class="top">
 				<view class="tag">
@@ -92,6 +93,7 @@
 			</view>
 
 		</view>
+		</scroll-view>
 	</view>
 </template>
 
