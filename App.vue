@@ -20,7 +20,10 @@
 	uni-page-body,html,body{  
 	            height: 100%;
 				background-color: #0E111E;
+				
+				/* 设置全局字体 */
 	        }
+				
 			
 	::-webkit-scrollbar{
 	      display: none;
