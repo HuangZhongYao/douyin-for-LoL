@@ -4,11 +4,11 @@
 		<view class="main">
 			<view class="top">
 				<view class="tag">
-					<view class="tab-bar" @click="activiTabBar = 0" :class="activiTabBar == 0 ? 'activi-tab-bar':'' ">作品
+					<view class="tab-bar" @click="activiTabBar = 0" :class="activiTabBar == 0 ? 'activi-tab-bar':'' ">作品18
 					</view>
-					<view class="tab-bar" @click="activiTabBar = 1" :class="activiTabBar == 1 ? 'activi-tab-bar':'' ">动态
+					<view class="tab-bar" @click="activiTabBar = 1" :class="activiTabBar == 1 ? 'activi-tab-bar':'' ">动态11
 					</view>
-					<view class="tab-bar" @click="activiTabBar = 2" :class="activiTabBar == 2 ? 'activi-tab-bar':'' ">喜欢
+					<view class="tab-bar" @click="activiTabBar = 2" :class="activiTabBar == 2 ? 'activi-tab-bar':'' ">喜欢10
 					</view>
 				</view>
 			</view>
@@ -136,6 +136,8 @@
 
 	.activi-tab-bar {
 		border-bottom: 1px solid #D1BC68;
+		font-weight: 500;
+		color: #ffffff;
 	}
 
 	.tab-bar {
@@ -144,7 +146,6 @@
 		padding: 2px;
 		text-align: center;
 		float: left;
-		color: #454751;
 
 	}
 
@@ -152,6 +153,7 @@
 		position: absolute;
 		bottom: 0px;
 		width: 100%;
+		color: #454751;
 	}
 
 	.content {
