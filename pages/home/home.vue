@@ -19,7 +19,7 @@
 		</swiper>
 		
 		<!-- 暂停图标 -->
-		<image v-show='pause' class="pause-icon" 
+		<image v-show='pause' @click="click()" class="pause-icon" 
 				src="../../static/icon/pause.png"></image>
 		
 	</view>
@@ -30,7 +30,7 @@
 	export default {
 		data() {
 			return {
-				videoList: [{path:'sdfsd'}],
+				videoList: [],
 				videoIndex: 0,
 				videoContext: null,
 				pause: false,
@@ -114,21 +114,24 @@
 			// 视频点击事件
 			click() {
 				if (this.pause) {
+					this.pause = false;
 					this.play();
 				} else {
+					this.pause = true;
 					this.pauseVideo();
 				}
 			},
+	
 			//播放
 			play() {
-				console.log("play")
-				this.videoContext.pause();
+				console.log("play  paus:",this.pause)
+				this.videoContext.play();
 				this.pause = false;
 
 			},
 			//暂停视频
 			pauseVideo() {
-				console.log("pause")
+				console.log("pauseVideo  paus:",this.pause)
 				this.videoContext.pause();
 				this.pause = true;
 			},

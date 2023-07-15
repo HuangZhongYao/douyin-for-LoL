@@ -10,7 +10,7 @@
 			console.log('App Hide')
 		},
 		globalData: {  
-		            baseApi: 'http://47.115.216.83:8080'  
+		            baseApi: 'http://192.168.101.10:8090'  
 		        }
 	}
 </script>
